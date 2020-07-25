@@ -28,7 +28,8 @@
 #+OPTIONS: \n:t
 #+OPTIONS: ^:{}  # アンダースコアで下付きを無効化
 
-html export command: C-c C-e h h
+[html export command]: % C-c C-e h h
+
 [[https://pop-ketle.github.io/papers/README.html][ビュアー ]] 最終更新日:<2020-07-26 Sun>
 
 * papers
