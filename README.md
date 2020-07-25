@@ -1,2 +1,0 @@
-# papers
-What I Read
