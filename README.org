@@ -1,3 +1,5 @@
+#+BEGIN_COMMENT
+# readtheorgのテーマ---------------------------------
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/htmlize.css" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/readtheorg.css" />
 
@@ -6,8 +8,7 @@
 #+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
 
-# BIGBLOWのcss---------------------------------
-#+BEGIN_COMMENT
+# BIGBLOWのテーマ---------------------------------
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/htmlize.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/bigblow.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/hideshow.css"/>
@@ -23,14 +24,26 @@
 #+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
 #+END_COMMENT
 
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/readtheorg/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/readtheorg/css/readtheorg.css"/>
+
+#+HTML_HEAD: <script type="text/javascript" src="styles/lib/js/jquery.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="styles/lib/js/bootstrap.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="styles/readtheorg/js/readtheorg.js"></script>
+
+#+TITLE: Papers what I read
+#+AUTHOR: pop-ketle
+
 #+STARTUP: indent
 
 #+OPTIONS: \n:t
 #+OPTIONS: ^:{}  # アンダースコアで下付きを無効化
 
-[html export command]: % C-c C-e h h
-
 [[https://pop-ketle.github.io/papers/README.html][ビュアー ]] 最終更新日:<2020-07-26 Sun>
+このhtmlのビュアーは[[https://github.com/fniessen/org-html-themes][ fniessen/org-html-themes]]のreadtheorgを使用しています。
+# Command to export as html: % C-c C-e h h
+
 
 * papers
 What I Read
