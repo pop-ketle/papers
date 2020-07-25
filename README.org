@@ -40,7 +40,8 @@
 #+OPTIONS: \n:t
 #+OPTIONS: ^:{}  # アンダースコアで下付きを無効化
 
-[[https://pop-ketle.github.io/papers/README.html][ビュアー ]] 最終更新日:<2020-07-26 Sun>  
+[[https://pop-ketle.github.io/papers/README.html][ビュアー ]] 最終更新日:<2020-07-26 Sun>
+
 このhtmlのビュアーは[[https://github.com/fniessen/org-html-themes][ fniessen/org-html-themes]]のreadtheorgを使用しています。
 # Command to export as html: % C-c C-e h h
 
