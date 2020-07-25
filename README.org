@@ -1,23 +1,45 @@
-#+STYLE: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/htmlize.css" />
-#+STYLE: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/readtheorg.css" />
-
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
 #+HTML_HEAD: <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-#+HTML_HEAD: <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>h
-#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+#+HTML_HEAD: <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
+
+# BIGBLOWのcss---------------------------------
+#+BEGIN_COMMENT
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/bigblow.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/hideshow.css"/>
+
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery-1.11.0.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
+
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.localscroll-min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.zclip.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/bigblow.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/hideshow.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+#+END_COMMENT
+
+#+STARTUP: indent
+
+#+OPTIONS: \n:t
+#+OPTIONS: ^:{}  # アンダースコアで下付きを無効化
+
 
 * papers
 What I Read
 
-** [[https://search.ieice.org/bin/summary.php?id=j101-d_8_1070][水温パターンのクラスタリングによる良漁場推定]]
+** [[https://search.ieice.org/bin/summary.php?id=j101-d_8_1070][水温パターンのクラスタリングによる良漁場推定]] [2020-7-25 Sat]
 *** 漁場をパターン認識の方向から見つける。水温パターンのクラスタリングから良い漁場を見つける。
-- 面白いと思った点  
--- スペクトラルクラスタリングを用いて、パターンにならない「雑多な」データを一つのクラスタとしてまとめてしまうと言うアプローチをとっている点
--- 近い時期の海水温パターンは当然似た特徴を持つ。これにより近い時期のデータが集まり小クラスタを作ってしまうのが問題だと論文中では言われている。
-    この問題を解決するために、データ\(p_1, p_2\)に対して類似度をそのまま計算するのではなく、別の年から\(p_1\)と類似度が最大となるデータ\(p_x\)をとってきて、
-    \(p_1\)と\(p_x\)、\(p_2\)と\(p_x\)の類似度を計算してこれを足して2で割る、つまり平均を類似度として使うと言う手法が用いられている。
+**** 面白いと思った点  
+- スペクトラルクラスタリングを用いて、パターンにならない「雑多な」データを一つのクラスタとしてまとめてしまうと言うアプローチをとっている点
+- 近い時期の海水温パターンは当然似た特徴を持つ。これにより近い時期のデータが集まり小クラスタを作ってしまうのが問題だと論文中では言われている。
+    この問題を解決するために、データp_1, p_2に対して類似度をそのまま計算するのではなく、別の年からp_1と類似度が最大となるデータp_xをとってきて、
+    p_1とp_x、p_2とp_xの類似度を計算してこれを足して2で割る、つまり平均を類似度として使うと言う手法が用いられている。
     ユニークで面白いと思ったが、効果がどれほどあるのかは正直よくわからなかった。
-- 疑問点
--- スペクトラルクラスタリングをどう使ったのか(ググったら重み付きグラフに対してクラスタリングをする的なことが書いてあったので純粋に疑問に思った)
-- その他
--- これはアカイカ漁しか対象としていない。
+**** 疑問点
+- スペクトラルクラスタリングをどう使ったのか(ググったら重み付きグラフに対してクラスタリングをする的なことが書いてあったので、それをどう海水温パターン画像に用いたのか純粋に疑問に思った)
+**** その他
+- これはアカイカ漁しか対象としていない。
