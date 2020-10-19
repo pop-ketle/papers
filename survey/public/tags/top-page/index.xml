@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>top-page on 調べ物まとめ</title>
+    <link>http://example.org/tags/top-page/</link>
+    <description>Recent content in top-page on 調べ物まとめ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 26 Sep 2020 23:08:59 +0900</lastBuildDate><atom:link href="http://example.org/tags/top-page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>調べ物まとめ</title>
+      <link>http://example.org/</link>
+      <pubDate>Sat, 26 Sep 2020 23:08:59 +0900</pubDate>
+      
+      <guid>http://example.org/</guid>
+      <description>本読んだり、論文読んだり、調べ物したものを適当にまとめます 2020/10/20 更新
+使用テーマhugo-thme-learn
+ how to use make new site hugo new site $SITENAME$ make chapter チャプターを作るには
+hugo new --kind chapter &amp;lt;name&amp;gt;/_index.md weightで左のリスト表示の位置を、pre = &amp;ldquo;X. &amp;ldquo;で表示する文字の調整。
+make new page 新しいページを作るには
+hugo new &amp;lt;name&amp;gt;/&amp;lt;name&amp;gt;.md tags: [&amp;ldquo;tag-name&amp;rdquo;]でタグをつけれます。
+ how to deploy  プロジェクトフォルダへ移動
+例:  cd survey localhostで起動&amp;amp;テスト  hugo server -D publicを作成  hugo デプロイ  ../deploy.sh </description>
+    </item>
+    
+  </channel>
+</rss>
