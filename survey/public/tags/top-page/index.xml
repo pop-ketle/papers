@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>top-page on 調べ物まとめ</title>
-    <link>http://example.org/tags/top-page/</link>
+    <link>https://pop-ketle.github.io/survey/tags/top-page/</link>
     <description>Recent content in top-page on 調べ物まとめ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 26 Sep 2020 23:08:59 +0900</lastBuildDate><atom:link href="http://example.org/tags/top-page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Sep 2020 23:08:59 +0900</lastBuildDate><atom:link href="https://pop-ketle.github.io/survey/tags/top-page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>調べ物まとめ</title>
-      <link>http://example.org/</link>
+      <link>https://pop-ketle.github.io/survey/</link>
       <pubDate>Sat, 26 Sep 2020 23:08:59 +0900</pubDate>
       
-      <guid>http://example.org/</guid>
+      <guid>https://pop-ketle.github.io/survey/</guid>
       <description>本読んだり、論文読んだり、調べ物したものを適当にまとめます 2020/10/20 更新
 使用テーマhugo-thme-learn
  how to use make new site hugo new site $SITENAME$ make chapter チャプターを作るには
