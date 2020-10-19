@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://pop-ketle.github.io/survey/"
 languageCode = "ja-jp"
 title = "調べ物まとめ"
 theme = "hugo-theme-learn"
