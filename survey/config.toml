@@ -1,7 +1,8 @@
-baseURL = "https://pop-ketle.github.io/"
+baseURL = "https://pop-ketle.github.io/survey"
 languageCode = "ja-jp"
 title = "調べ物まとめ"
 theme = "hugo-theme-learn"
+publishDir = "docs"
 
 # For search functionality
 [outputs]
