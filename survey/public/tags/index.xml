@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 調べ物まとめ</title>
-    <link>https://pop-ketle.github.io/survey/tags/</link>
+    <link>https://pop-ketle.github.io/tags/</link>
     <description>Recent content in Tags on 調べ物まとめ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 20 Oct 2020 06:09:02 +0900</lastBuildDate><atom:link href="https://pop-ketle.github.io/survey/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Oct 2020 06:09:02 +0900</lastBuildDate><atom:link href="https://pop-ketle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Papers</title>
-      <link>https://pop-ketle.github.io/survey/tags/papers/</link>
+      <link>https://pop-ketle.github.io/tags/papers/</link>
       <pubDate>Tue, 20 Oct 2020 06:09:02 +0900</pubDate>
       
-      <guid>https://pop-ketle.github.io/survey/tags/papers/</guid>
+      <guid>https://pop-ketle.github.io/tags/papers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>top-page</title>
-      <link>https://pop-ketle.github.io/survey/tags/top-page/</link>
+      <link>https://pop-ketle.github.io/tags/top-page/</link>
       <pubDate>Sat, 26 Sep 2020 23:08:59 +0900</pubDate>
       
-      <guid>https://pop-ketle.github.io/survey/tags/top-page/</guid>
+      <guid>https://pop-ketle.github.io/tags/top-page/</guid>
       <description></description>
     </item>
     
