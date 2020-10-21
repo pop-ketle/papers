@@ -15,6 +15,7 @@
       <guid>https://pop-ketle.github.io/survey/</guid>
       <description>本読んだり、論文読んだり、調べ物したものを適当にまとめます 2020/10/20 更新
 使用テーマhugo-thme-learn
+ Hugoを使ってサイトを作ってみたけど、Notion使ってページ公開したほうがよかったんじゃないかと早くも後悔しています。
  how to use make new site hugo new site $SITENAME$ make chapter チャプターを作るには
 hugo new --kind chapter &amp;lt;name&amp;gt;/_index.md weightで左のリスト表示の位置を、pre = &amp;ldquo;X. &amp;ldquo;で表示する文字の調整。
 make new page 新しいページを作るには
