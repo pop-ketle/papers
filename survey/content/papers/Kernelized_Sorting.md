@@ -1,5 +1,5 @@
 ---
-title: "2_kernelized_Sorting"
+title: "kernelized_Sorting"
 date: 2020-10-20T06:40:05+09:00
 draft: true
 ---
