@@ -6,13 +6,49 @@
     <description>Recent content in Tags on 調べ物まとめ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 20 Oct 2020 06:09:02 +0900</lastBuildDate><atom:link href="https://pop-ketle.github.io/survey/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2020 16:09:01 +0900</lastBuildDate><atom:link href="https://pop-ketle.github.io/survey/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Papers</title>
       <link>https://pop-ketle.github.io/survey/tags/papers/</link>
-      <pubDate>Tue, 20 Oct 2020 06:09:02 +0900</pubDate>
+      <pubDate>Thu, 22 Oct 2020 16:09:01 +0900</pubDate>
       
       <guid>https://pop-ketle.github.io/survey/tags/papers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ベイズ</title>
+      <link>https://pop-ketle.github.io/survey/tags/%E3%83%99%E3%82%A4%E3%82%BA/</link>
+      <pubDate>Thu, 22 Oct 2020 16:09:01 +0900</pubDate>
+      
+      <guid>https://pop-ketle.github.io/survey/tags/%E3%83%99%E3%82%A4%E3%82%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>レコメンデーション</title>
+      <link>https://pop-ketle.github.io/survey/tags/%E3%83%AC%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/</link>
+      <pubDate>Thu, 22 Oct 2020 16:09:01 +0900</pubDate>
+      
+      <guid>https://pop-ketle.github.io/survey/tags/%E3%83%AC%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>https://pop-ketle.github.io/survey/tags/books/</link>
+      <pubDate>Thu, 22 Oct 2020 02:19:50 +0900</pubDate>
+      
+      <guid>https://pop-ketle.github.io/survey/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>クラスタリング</title>
+      <link>https://pop-ketle.github.io/survey/tags/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0/</link>
+      <pubDate>Tue, 20 Oct 2020 06:09:02 +0900</pubDate>
+      
+      <guid>https://pop-ketle.github.io/survey/tags/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0/</guid>
       <description></description>
     </item>
     
