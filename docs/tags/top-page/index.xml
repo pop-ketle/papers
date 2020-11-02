@@ -13,9 +13,11 @@
       <pubDate>Sat, 26 Sep 2020 23:08:59 +0900</pubDate>
       
       <guid>https://pop-ketle.github.io/survey/</guid>
-      <description>本読んだり、論文読んだり、調べ物したものを適当にまとめます 2020/10/20 更新
+      <description>本読んだり、論文読んだり、調べ物したものを適当にまとめます 2020/11/2 更新
 使用テーマhugo-thme-learn
  Hugoを使ってサイトを作ってみたけど、Notion使ってページ公開したほうがよかったんじゃないかと早くも後悔しています。
+現在のように、Hugoを使う場合は、マークダウンで記事書いて、画像入れたかったらstaticフォルダ下に画像を配置してパスを通してなの色々考えて、さらにデプロイまでしないといけないので書くためのハードルがかなり高くなります。
+そのため、Notionを使ってそのページを公開する形にした方が、手軽に数式や図表を簡単に入れられたり、入れ子構造にページを構築できたりしてかなり便利なので、そちらに移行しようと思いました。(特に論文の図表をスクショしてドラックアンドドロップして貼り付ければオーケーなのはかなり嬉しい。)しばらくこのページは置いておきますが、そのうちNotionに移行して、ポートフォリオサイトの方にでもリンクを貼っておこうと思います。
  how to use make new site hugo new site $SITENAME$ make chapter チャプターを作るには
 hugo new --kind chapter &amp;lt;name&amp;gt;/_index.md weightで左のリスト表示の位置を、pre = &amp;ldquo;X. &amp;ldquo;で表示する文字の調整。
 make new page 新しいページを作るには
